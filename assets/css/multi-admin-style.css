@@ -1,0 +1,15 @@
+.category-color-picker .wp-picker-container {
+    display: inline-block;
+}
+.category-color-picker label {
+    display: inline-block;
+}
+.category-color-picker {
+    width: 60%;
+    float: left;
+}
+.category-names {
+    width: 40%;
+    float: left;
+}
+#image-preview{max-width: 400px !important;}

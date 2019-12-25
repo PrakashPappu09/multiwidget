@@ -1,0 +1,456 @@
+/*-------------- CATEGORY LIST START ---------------------*/
+
+.category-widget .panel-group .panel-default{border:none; box-shadow: none; background-color: transparent;}
+.category-widget .panel-group .panel-heading{background:transparent;padding:0;}
+.category-widget .panel-group .panel-title {position: relative; padding-left: 20px;}
+.category-widget .panel-group .panel-title:before {position: absolute; top: 5px; left: 0px; content: ''; background: #f58752; border-radius: 50%; width: 9px; height: 9px;}
+.category-widget .panel-heading a {color:#666;font-family:'Open Sans',sans-serif;font-weight:normal;text-transform:capitalize;}
+.category-widget .panel-heading a i.fa-minus {display:inline-block}
+.category-widget .panel-heading a i.fa-plus {display:none}
+.category-widget .panel-heading a.collapsed i.fa-minus {display:none}
+.category-widget .panel-heading a.collapsed i.fa-plus {display:inline-block}
+.category-widget .panel-heading a i {margin-right:10px;border:2px solid #ccc;border-radius:50%;width:25px;height:25px;text-align:center;padding:3px 0;display:inline-block;font-size:inherit}
+.category-widget .panel-collapse {overflow:hidden}
+.category-widget .inner-list-items {padding-left:35px;border:none}
+.category-widget .inner-list-items li {border:medium none!important;margin:10px 0!important}
+.category-widget .inner-list-items a {color:#666;font-family:'Open Sans',sans-serif}
+.category-widget .inner-list-items a:hover {font-weight:600}
+/*-------------- CATEGORY LIST ENDS ---------------------*/
+/*-------------- INSTAGRAM START ---------------------*/
+.instagram-pics figure img {
+    /*width: 85px;
+    height: 85px;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;*/
+}
+/*-------------- INSTAGRAM  ENDS ---------------------*/
+
+.flickr-owl-feeds.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 65px;
+    display: block;
+    width: 100%;
+}
+
+/*=====================IBT ARCHIVE POSTS=====================*/
+.itb_widget_archive ul{margin: 0; padding: 0;}
+
+.itb_widget_archive span.ibt_archive_post_count {
+    background: #545454;
+    color: #fff;
+    padding: 0px 6px;
+    text-align: center;
+    position: relative;
+    float: right;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+/*=======Widget-title style========*/
+/* h2.widget-title {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+ *//*==============Widget-social-links Start=============*/
+/* .ze-social-linkss ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ze-social-linkss li a {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+}
+.ze-social-linkss ul li {
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 7px 7px;
+}
+
+.ze-social-linkss li.social-twit {
+    background: #45b0e4;
+}
+.ze-social-linkss li.social-fb {
+    background: #38599e;
+}
+.ze-social-linkss li.social-insta {
+    background: #000;
+}
+.ze-social-linkss li.social-gplus {
+    background: #333333;
+}
+.ze-social-linkss li.social-youtub {
+    background: #e80032;
+}
+.ze-social-linkss li.social-linedin {
+    background: #4997cf;
+}
+.ze-social-linkss li.social-vimeo {
+    background: #49abe2;
+}
+.ze-social-linkss li.social-behance {
+    background: #444;
+}
+.ze-social-linkss li.social-flicker {
+    background: #d433cb;
+}
+.ze-social-linkss li.social-pinterst {
+    background: #ab0000;
+}
+.ze-social-linkss li.social-dribble {
+    background: #d97aa6;
+}
+.ze-social-linkss li.social-rssfeed {
+    background: #FF9800;
+} */
+.ze-social-linkss .custom-text {
+    font-size: 12px;
+    font-weight: normal;
+    color: #7d7d7d;
+    text-align: center;
+    padding: 20px 0;
+}
+.flickr_badge_image {
+    display: inline-block;
+    margin: 4px;
+}
+/*==============Widget-social-links End=============*/
+
+
+
+/*------------- CALENDAR section ------------*/
+/* -------------- OUR EVENTS PAGE ------------- */
+    .calender-markup { width: 55%; }
+
+    .todays-article .img-wrapper { width: 204px; }
+    .fc-five-rows .fc-row { height: 20%; }
+    .calender-info {
+      float: left;
+      width: 44%;
+      position: relative;
+      height: 200px;
+    }/* ----------------------------------------------- */
+
+
+.calender-info {
+  float: left;
+  /*width: 29%;*/
+  position: relative;
+  height: 200px;
+}
+.calender-markup {
+  float: left;
+  width: 55%;
+  position: relative;
+  height: 200px;
+}
+.currentdate {
+  color: #fff;
+  font-family: "OswaldRegular",sans-serif;
+  font-size: 20px;
+  height: 20%;
+  padding: 3px 20px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+.currentdate nav {
+    position: absolute;
+    height: 100%;
+    width:100%;
+    top: 0px;
+    left: 0px;
+  }
+.currentdate nav .prev-date,
+.currentdate nav .next-date {
+      top: 6px;
+      position: absolute;
+      cursor:pointer;
+    }
+.currentdate nav .prev-date { left: 10px; }
+.currentdate nav .next-date { right: 10px; }
+.todays-article > .current-date {
+      font-size: 50px;
+      line-height: 1;
+      text-align: center;
+      left: 0%;
+      width: 100%;
+    }
+
+.todays-article {
+  position: relative;
+  background-color: #474a4c;
+  color: #fff;
+  height: 90%;
+  padding: 20px;
+  font-family:'OswaldRegular', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.todays-article h1 {
+    position: relative;
+    text-align: center;
+    font-family:'OswaldLight', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    margin: 30px 0;
+  }
+.todays-article img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+  }
+.todays-article p, .todays-article a {
+    display: block;
+    color: #838383;
+    font-size: 15px;
+    margin: 10px 0;
+  }
+
+.fc-calendar-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.fc-calendar {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e2e2e2;
+  border-bottom:0px;
+}
+.fc-calendar .fc-head {
+  border-bottom: 1px solid #e2e2e2;
+  color: #8e8e8e;
+  font-family: "Oswald",sans-serif;
+  font-size: 12px;
+  height: 45px;
+  line-height: 30px;
+  padding: 9px 0;
+  text-transform: uppercase;
+}
+.fc-calendar .fc-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: -moz-calc(100% - 65px);
+  height: -webkit-calc(100% - 65px);
+  height: calc(100% - 65px);
+}
+.fc-calendar .fc-row {
+  width: 100%;
+  border-bottom: 1px solid #e2e2e2;
+  font-family:'DroidSans', sans-serif;
+  font-size:12px;
+  color:#898989;
+}
+.fc-four-rows .fc-row { height: 25%; }
+/*.fc-five-rows .fc-row { height: 20%; }*/
+.fc-six-rows .fc-row {
+  height: 16.66%;
+  height: -moz-calc(100% / 6);
+  height: -webkit-calc(100% / 6);
+  height: calc(100% / 6);
+}
+.fc-calendar .fc-row > div, .fc-calendar .fc-head > div {
+  float: left;
+  height: 100%;
+  width: 14.28%;
+  /* 100% / 7 */
+  width: -moz-calc(100% / 7);
+  width: -webkit-calc(100% / 7);
+  width: calc(100% / 7);
+  position: relative;
+}
+/* IE 9 is rounding up the calc it seems */
+ .ie9 .fc-calendar .fc-row > div, .ie9 .fc-calendar .fc-head > div { width: 14.2%; }
+
+.fc-calendar .fc-row > div {
+  border-right: 1px solid #ddd;
+  padding: 4px;
+  overflow: visible;
+  position: relative;
+}
+.fc-calendar .fc-head > div { text-align: center; }
+.fc-calendar .fc-row > div:empty { background:url("../_assets/images/calender-blank-bg.png"); }
+.fc-calendar .fc-row > div > span.fc-date {
+  bottom: 2px;
+  position: absolute;
+  right: 4px;
+}
+.fc-calendar .fc-row > div > span.fc-weekday {
+  padding-left: 5px;
+  display: none;
+}
+.fc-calendar .fc-row > div.fc-out { opacity: 0.6; }
+.fc-calendar .fc-row > div:last-child, .fc-calendar .fc-head > div:last-child { border-right: none; }
+
+.fc-content:hover {
+    -webkit-transition: all 10s ease-in-out;
+    -moz-transition: all 10s ease-in-out;
+    -o-transition: all 10s ease-in-out;
+    -ms-transition: all 10s ease-in-out;
+    transition: all 10s ease-in-out;
+  }
+.fc-content:hover div {
+      display: block;
+      width:200%;
+      height: 50px;
+    }
+
+.fc-content div {
+    display: none;
+    position: absolute;
+    top: -50px;
+    right: -200%;
+    z-index: 100;
+    width: 0%;
+    height: 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding:0 10px;
+  }
+
+.fc-content:nth-child(n+6) div { right:0px; }
+
+.fc-content div a {
+      color: #fff;
+      font-size: 14px;
+    }
+
+@media(min-width: 992px) {
+  .calender { display: block; }
+}
+
+.currentdate {
+  background-color: #00b2ec;
+}
+.fc-content div { background: grey; }
+
+.todays-article .img-wrapper {
+  border-radius: 50%;
+  border: 3px solid #5b5b5b;
+  position: relative;
+  /*width: 80%;*/
+  height: 204px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.todays-article h3 {
+  color: #fff;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin: 30px 0;
+}
+.todays-article a {
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+}
+.todays-article .blue.bullet {
+  position: absolute;
+  left: 50%;
+  margin-left: -7.5px;
+  top: -14px;
+}
+.fc-calendar .fc-row > div:empty { background-image: url('assets/images/stripe.jpg'); }
+.fc-calendar .fc-row .fc-content span.fc-date {
+  background-color: #00b2ec;
+  border-radius: 50%;
+  color: white;
+  height: 20px;
+  margin-right: -3px;
+  text-align: center;
+  width: 20px;
+}
+.fc-today .fc-date {
+  background: #000 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #fff;
+  height: 20px;
+  margin-right: -3px;
+  width: 20px;
+}
+/*==============Twitter feed ====================*/
+.widget .replace-bullet-twicon ul li:before {
+    content: "\f099";
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size:20px;
+    width:0;
+}
+
+.widget .replace-bullet-twicon ul li{
+  padding: 15px 0 15px 40px;
+}
+.widget .twitter-poststwitter-posts ul li:before {
+    top: 20px;
+    left: 0;
+}
+.wpb_widgetised_column .widget ul li {
+    color: #1c2747;
+}
+
+
+
+
+
+.widget-product-slick-slider .star-rating {
+    font-size: .857em;
+}
+.widget-product-slick-slider .star-rating {
+    display: block;
+    margin: 0 0 .5em;
+    float: none;
+}
+.widget-product-slick-slider .star-rating {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star;
+}
+
+.widget-product-slick-slider .star-rating::before {
+    content: '\73\73\73\73\73';
+    color: #d3ced2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.widget-product-slick-slider .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+.widget-product-slick-slider .star-rating span:before {
+    color: #f58752;
+}
+.widget-product-slick-slider .star-rating span::before {
+    content: '\53\53\53\53\53';
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.widget-product-slick-slider strong {
+    display: block;
+}
