@@ -22,7 +22,7 @@ class Multi_recent_post_widget extends WP_Widget {
 	*/
 	public function __construct() {
 		$widget_ops = array('classname' => 'multi_widget_recent_entries', 'description' => esc_html__( "Your site&#8217;s most recent Posts.",'multiwidget') );
-		parent::__construct('ibt-recent-posts', esc_html__('Multi Recent Posts Widget','multiwidget'), $widget_ops);
+		parent::__construct('ibt-recent-posts', esc_html__('Multiwidget Recent Posts','multiwidget'), $widget_ops);
 		$this->alt_option_name = 'multi_widget_recent_entries';
 	}
 
